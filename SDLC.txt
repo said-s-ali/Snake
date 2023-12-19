@@ -1,0 +1,36 @@
+Software Development Life Cycle Summarised:
+
+1. Planning and Analysis
+2. Define Requirements
+3. Design
+4. Development
+5. Testing
+6. Deployment
+7. Maintenance
+--------------------------------------------------------------------------------------------------------------
+
+1. Planning and Analysis
+ - The purpose of this snake game is to exercise and practice oop concepts, python syntax, and python functions.
+
+
+2. Define Requirements
+# This snake game should be able to:
+  - Generate a snake sprite that has the ability to move in four directions within a define area: Up, Down, Right, and Left
+  - Spawn "eatable" "items" randomly within the defined area
+  - Allow the snake to "eat" the items with its head, extending the snakes body from the back
+  - "Kill" the snake and end the game if the snake's head collides with any other body part
+
+  Extra features:
+   - Snake is able to go through boundries, and return in the opposite direction
+   - ...
+
+
+   3. Design & Development*
+
+     - Create game boundry area
+     - Create snake sprite model
+     - Create snake movement functionality
+     - Create snake boundry passthrough functionality*
+     - Create item spawning
+     - Create snake body extention functionality (when snake co-ordinates collide with item co-ordinates)
+     - Create snake death functionality
