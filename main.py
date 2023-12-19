@@ -72,7 +72,7 @@ class Game:
           pygame.init()
           self.surface = pygame.display.set_mode((1000,1000))   # Creates a display[l x w]
           self.surface.fill((52, 133, 73))                      # Fills background with selected RGB colour
-          self.snake = Snake(self.surface, 10)
+          self.snake = Snake(self.surface, 100)
           self.snake.draw_block()
 
      def run(self):
